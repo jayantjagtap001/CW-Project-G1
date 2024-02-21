@@ -26,6 +26,74 @@
 
 
         /* css part5 */
+        footer{
+            width: auto;
+            height: 80vh;
+background-color: rgba(77, 74, 74, 0.151);
+margin: 0;
+        }
+       #two{
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+        margin-left: 100px;
+       }
+       .ho:hover{
+        color: rgb(79, 79, 233);
+        cursor: pointer;
+         }
+         .ho{
+            padding: 2px;
+            font-size: large;
+           font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+           font-weight: lighter;
+           font-size: large;
+         }
+         #last{
+            z-index: 1;
+            display: flex;
+            justify-content: space-between;
+            align-content: center;
+            margin-left: 40px;
+            text-align: center;
+            margin-bottom:20px ;
+         }
+        #soc{
+            display: flex;
+           justify-content: center;
+           margin-top: 22px;
+           gap: 10px;
+        }
+        #one{
+            width: 80%;
+            padding: 40px;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            margin: 100px;
+            justify-content: center;
+            margin: 0;
+            margin-left: 100px;
+        }
+       .email h6{
+        margin: 0;
+        font-size: large;
+       } 
+       #country{
+        width: 350px;
+        height: 50px;
+        border-radius: 5px;
+       }
+     #third{
+        width: 80%;
+        margin-left: 100px;
+     }
+     #fix{
+        z-index: 1;
+        background-color: rgba(77, 74, 74, 0.151);
+        margin: 0;
+        text-align: center;
+            height: 60px;
+     }
     </style>
 </head>
 
@@ -52,7 +120,118 @@
 
     <!-- html part5 -->
     <div id="part5">
-
+        <footer >
+            <div id="one">
+                <div class="email">
+                      <h6>Enter Email to receive valuable updates</h6>
+                      <input style="width: 350px;height: 50px;border-radius: 5px;border: 1px solid;"  type="email" placeholder="Email">
+                      
+                   
+                  </div>
+                <div id="soc">
+                    <div><img src="https://p4-ofp.static.pub/fes/cms/2021/07/13/i7yuirli2qwiqq1t804izy6fg0xft4483038.svg" alt=""></div>
+                    <div><img src="https://p2-ofp.static.pub/fes/cms/2021/07/13/q59kynt135ngy6yenpgfp83dulr08r150287.svg" alt=""></div>
+                    <div ><img src="https://p2-ofp.static.pub/ShareResource/we/footer/images/linkedin-icon.png" width="30" alt=""></div>
+                    <div><img src="https://p1-ofp.static.pub/fes/cms/2021/07/13/9uav8wkxhmyhu1mlutyfl8vftmkr3w675335.svg" alt=""></div>
+                    <div><img src="https://p2-ofp.static.pub/ShareResource/we/footer/images/forums-icon.png" width="30" alt=""></div>
+                </div>
+                <div class="select-country">
+                    <label style="font-weight: 500;font-size: larger;;" for="country">Select Country/Region:</label>
+                    <br>
+                    <select  id="country">
+                      <option value="IN" data-flag="🇮🇳">India</option>
+                      <option value="US" data-flag="🇺🇸">United States</option>
+                      <option value="CN" data-flag="🇨🇳">China</option>
+                      <option value="GB" data-flag="🇬🇧">United Kingdom</option>
+                      <option value="JP" data-flag="🇯🇵">Japan</option>
+                    </select>
+                  </div>
+                  
+                  
+            </div>
+    <div id="two">
+        <div>
+      <h4>ABOUT LENOVO</h4>
+      <div class="ho">Our Company</div>
+      <div class="ho">News</div>
+      <div class="ho">Investors Relations</div>
+      <div class="ho">Legal Information</div>
+      <div class="ho">Jobs at Lenovo</div>
+      <div class="ho">ESG</div>
+        </div>
+    
+       <div>
+        <h4>PRODUCTS & SERVICES</h4>
+       <div class="ho">Laptops & Ultrabooks</div>
+       <div class="ho">Smartphones</div>
+       <div class="ho">Tablets</div>
+       <div class="ho">Desktops</div>
+       <div class="ho">Workstations</div>
+       <div class="ho">Data Center Solutions</div>
+       <div class="ho">Accessories & Software</div>
+       <div class="ho"> Services & Warranty</div>
+       <div class="ho">Product Recalls</div>
+       <div class="ho">Replacement Parts</div>
+       </div>
+    
+        <div> 
+            <h4>CUSTOMER SUPPORT </h4>
+           <div class="ho">Service Provider List</div>
+           <div class="ho"> Where to Buy</div>
+           <div class="ho">Shopping Help</div>
+         </div>
+    
+        <div>
+            <h4>RESOURCES</h4>
+            <div class="ho">Employee Purchase Program</div>
+            <div class="ho">Contact Us</div>
+            <div class="ho">Find a Dealer</div>
+            <div class="ho"> Email Sign-Up</div>
+            <div class="ho">Support</div>
+            <div class="ho">Blog</div>
+            <div class="ho">Order Status</div>
+            <div class="ho">FAQs</div>
+        </div>
+    
+        <div>
+            <h4>PORTFOLIO</h4>
+            <div class="ho">ThinkPad T Series</div>
+            <div class="ho">ThinkPad X Series</div>
+            <div class="ho">ThinkPad</div>
+            <div class="ho">Ideapad</div>
+            <div class="ho">Yoga</div>
+            <div class="ho">M Series Tiny</div>
+            <div class="ho">ThinkCentre</div>
+            <div class="ho" >Ideacentre</div>
+            <div class="ho">Tablets</div>
+            <div class="ho">Thinkstation</div>
+            <div class="ho">Data Center Solutions</p></div>
+        </div>
+    
+        <div>
+            <h4>SOLUTIONS</h4>
+            <div class="ho">Business Partners</div>
+            <div class="ho">Think Progress</div>
+        </div>
+    </div>
+    <div id="third">
+         <p style="text-align: center;">© 2024 Lenovo. All rights reserved.</p> 
+         <p style="text-align: center;font-size: large;">Privacy | Site Map | Terms of Use | External Submission Policy Sales | terms and conditions Anti-Slavery and Human Trafficking Statement</p>
+         </div>
+    </footer>
+        <div  id="fix">
+            <hr>
+           
+                <div id="last">
+                    <div>
+                    <img src="" alt="">
+                    <div style="cursor: pointer;color: rgb(86, 86, 236);font-size: larger;">Feedback  </div>
+                </div>
+                <div class="last">
+                   <div style="text-justify: center;"> Need Help? Call :1-800-4199-733 <img style="cursor: pointer;" src="https://asia-cdn.inside-graph.com/custom/50-lenovo-offline-chat-tab-desktop-blue-2023-AM.svg?1707986560774" alt=""> </div>
+                    </div>
+                </div>
+            </div>
     </div>
 
 </body>
