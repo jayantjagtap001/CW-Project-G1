@@ -18,7 +18,112 @@
 
         /* css part3 */
 
+        * {
+        padding: 0;
+        margin: 0;
+    }
 
+    .nav_main {
+        width: 100%;
+        height: 270vh;
+        background-color: #F5F5F5;
+        border: 1px solid white;
+
+
+    }
+
+    .navya_div1 {
+        margin-left: 35px;
+        margin-top: 35px;
+    }
+
+    .navya_div1>h1 {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 50px;
+        word-spacing: -5px;
+        letter-spacing: -0%;
+        color: #171717;
+    }
+
+    .navya_div1>p {
+        font-size: 16px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 600;
+        color: #474747;
+        margin-top: 12px;
+        margin-bottom: 60px;
+    }
+
+    .navya_card>img {
+        height: 20rem;
+
+
+        
+    }
+    .navya_card:hover{
+        transform: scale(101%);
+    }
+
+    .nav_cd {
+        margin-top: -6px;
+    }
+
+    h2 {
+        word-spacing: -2px;
+    }
+
+    .nav_button {
+        font-size: 14px;
+        padding-top: 12px;
+        height: 7vh;
+        background-color: white;
+        color: black;
+        border: black solid 1px;
+        width: 100px;
+        font-weight: 500;
+
+    }
+    .nav_button:hover{
+        background-color: black;
+        border:1px solid black;
+    }
+    .nav_box{
+        width: 97%;
+        /* border: #171717 solid; */
+        display: flex;
+        justify-content: space-between;
+        /* margin-left: 35px; */
+    }
+    .nav_button1 {
+        font-size: 14px;
+        padding-top: 12px;
+        height: 7vh;
+        background-color: white;
+        color: black;
+        border: black solid 1px;
+        width: 150px;
+        font-weight: 500;
+
+    }
+    .nav_button1:hover{
+        background-color: black;
+        border:1px solid black;
+    }
+    .nav_button2 {
+        font-size: 14px;
+        padding-top: 11.5px;
+        height: 7vh;
+        background-color: white;
+        color: black;
+        border: black solid 1px;
+        width: 150px;
+        font-weight: 500;
+
+    }
+    .nav_button2:hover{
+        background-color: black;
+        border:1px solid black;
+    }
 
         /* css part4 */
         
@@ -109,6 +214,114 @@ margin: 0;
 
     <!-- html part3 -->
     <div id="part3">
+        <div class="nav_main">
+            <div class="navya_div1">
+                <h1>Explore Our Range</h1>
+                <p>OUR PRODUCTS</p>
+                <div class="nav_box">
+                    <div class="card navya_card" style="width: 26rem;border:none;height: 25rem;border-radius: 15px;overflow: hidden;">
+                        <img src="https://p4-ofp.static.pub/ShareResource/na/homepage/merchandising-card/lenovo-thinkpad-x1-carbon-gen10.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body nav_cd">
+                            <h2 class="card-title">PCs and Tablets</h2>
+                            <p class="card-text">Explore traditional & 2-in-1 laptops, customisable options and more.</p>
+                            <a href="#" class="btn btn-primary nav_button"> Shop PCs</a>
+                        </div>
+                    </div>
+                    <div class="card navya_card" style="width: 26rem;border:none;height: 25rem;border-radius: 15px;overflow: hidden;">
+                        <img src="https://p3-ofp.static.pub/ShareResource/na/homepage/espots/lenovo-office-work-monitor-2023.jpg"
+                            class="card-img-top" alt="..." style="height: 35vh;">
+                        <div class="card-body nav_cd">
+                            <h2 class="card-title">Monitors</h2>
+                            <p class="card-text">Explore monitors for business, home, gaming, portable options and more.</p>
+                            <a href="#" class="btn btn-primary nav_button1"> Shop Monitors</a>
+                        </div>
+                    </div>
+                    <div class="card navya_card" style="width: 26rem;border:none;height: 25rem;border-radius: 15px;overflow: hidden;">
+                        <img src="https://p2-ofp.static.pub//fes/cms/2024/01/05/uoc9artvj3ihjl9awgauu75x723nif913872.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body nav_cd">
+                            <h2 class="card-title">Accessories & Software</h2>
+                            <p class="card-text">Combine your laptop purchase with accessories, tech gadgets and software.</p>
+                            <a href="#" class="btn btn-primary nav_button2">Shop Accessories</a>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+            <div class="navya_div1"  style="margin-top: 70px;">
+                <h1>Fulfilling Potential through Technology</h1>
+                <p>Improve your results with Data Center and AI solutions</p>
+                <div class="nav_box">
+                    <div class="card navya_card" style="width: 26rem;border:none;height: 25rem;border-radius: 15px;overflow: hidden;">
+                        <img src="https://p4-ofp.static.pub/ShareResource/na/homepage/campaign-card/lenovo-sustainability-solutions.jpg"
+                            class="card-img-top" alt="..." style="height: 230px;">
+                        <div class="card-body nav_cd">
+                            <h2 class="card-title">Smarter Technology for All</h2>
+                            <p class="card-text">It's about creating a better world for us all</p>
+                            <a href="#" class="btn btn-primary nav_button"   style="width:150px">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="card navya_card" style="width: 26rem;border:none;height: 25rem;border-radius: 15px;overflow: hidden;">
+                        <img src="https://p2-ofp.static.pub/ShareResource/na/homepage/campaign-card/lenovo-cares-generations.jpg"
+                            class="card-img-top" alt="..." style="height: 230px;">
+                        <div class="card-body nav_cd">
+                            <h2 class="card-title">Lenovo CO2 Offset Service</h2>
+                            <p class="card-text">Carbon offset at the click of a button</p>
+                            <a href="#" class="btn btn-primary nav_button1" >Learn More</a>
+                        </div>
+                    </div>
+                    <div class="card navya_card" style="width: 26rem;border:none;height: 25rem;border-radius: 15px;overflow: hidden;">
+                        <img src="//p3-ofp.static.pub/ShareResource/na/homepage/campaign-card/lenovo-innovative-partner-lenovo-f1.jpg"
+                            class="card-img-top" alt="..." style="height: 230px;">
+                        <div class="card-body nav_cd">
+                            <h2 class="card-title">Innovative Partner</h2>
+                            <p class="card-text">Redefining the possibilities of technology</p>
+                            <a href="#" class="btn btn-primary nav_button2">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+           
+            <div class="navya_div1"  style="margin-top: 70px;">
+                <h1>Personalised Shopping</h1>
+                <p>EXPLORE LENOVO PRO FOR BUSINESS, GAMING & LENOVO EDUCATION STORES</p>
+                <div class="nav_box">
+                    <div class="card navya_card" style="width: 26rem;border:none;height: 25rem;border-radius: 15px;overflow: hidden;">
+                        <img src="https://p2-ofp.static.pub/ShareResource/na/homepage/campaign-card/lenovo-business-still-life.jpg"
+                            class="card-img-top" alt="..." style="height: 230px;">
+                        <div class="card-body nav_cd">
+                            <h2 class="card-title">Lenovo Pro for Business</h2>
+                            <p class="card-text">Get everything your business needs with Lenovo Pro</p>
+                            <a href="#" class="btn btn-primary nav_button" style="width:150px">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="card navya_card" style="width: 26rem;border:none;height: 25rem;border-radius: 15px;overflow: hidden;">
+                        <img src="//p3-ofp.static.pub/ShareResource/na/homepage/campaign-card/lenovo-gaming-still-life.jpg"
+                            class="card-img-top" alt="..." style="height: 230px;">
+                        <div class="card-body nav_cd">
+                            <h2 class="card-title">Gaming</h2>
+                            <p class="card-text">Smarter play starts with Lenovo</p>
+                            <a href="#" class="btn btn-primary nav_button1">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="card navya_card" style="width: 26rem;border:none;height: 25rem;border-radius: 15px;overflow: hidden;">
+                        <img src="//p3-ofp.static.pub/ShareResource/na/homepage/campaign-card/lenovo-education-still-life.jpg"
+                            class="card-img-top" alt="..." style="height: 230px;">
+                        <div class="card-body nav_cd">
+                            <h2 class="card-title">Education</h2>
+                            <p class="card-text">Smarter technology for all student lifestyles</p>
+                            <a href="#" class="btn btn-primary nav_button2">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+    
+    
+        </div>
+
 
     </div>
 
