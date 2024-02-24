@@ -1,44 +1,31 @@
-body
-{
-    margin: 0px;
-    padding: 0px;
-}
-
-// part1
 body {
     margin: 0px;
     padding: 0px;
     width: 1920px;
-
-
-
 }
 
-@media (min-width:1350px) {
-    .container {
-        max-width: 1320px;
-        margin:auto;
-    }
+// part1
 
-    .pthird {
-        max-width: 1320px;
-        margin: auto;
-    }
+body {
+    margin: 0 auto;
+}
 
-    .part1img {
-        max-width: 1320px;
-        margin: auto;
-    }
-        body
-        {
-            max-width: 1320px;
-            margin: auto;
-        }
+header {
+    margin: 0 auto;
+}
+
+.part1img {
+    margin: 0 auto;
+}
+
+.pthird {
+    margin: 0 auto;
 }
 
 header {
     width: 1920px;
     height: 88px;
+    margin: auto;
 
 
     .container {
@@ -46,8 +33,7 @@ header {
         height: 88px;
         display: flex;
         gap: 149.5px;
-        margin-left: 300px;
-        margin-right: 300px;
+        margin: auto;
 
 
         .first {
@@ -374,7 +360,7 @@ header {
                 .ibb2 {
                     width: 69.19px;
                     height: 43.59px;
-                   
+
 
                     .ibbb1 {
                         width: 69.39px;
@@ -616,6 +602,12 @@ header {
 
 
 }
+
+
+
+
+
+
 
 
 // part2
