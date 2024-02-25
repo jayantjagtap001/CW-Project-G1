@@ -23,6 +23,223 @@ body
 
 
 // part4
+// customer reviews
+
+.customer_review {
+    background-repeat: no-repeat;
+    background-image: url(https://s3-alpha-sig.figma.com/img/a2f5/874a/47e24d083480095ba7c5802d90d770d6?Expires=1709510400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=aWEGuwAqqCjciB5KZW5DRniEBtyGFzUUxHfTh6OTM93ATwNPiWnh-l9DyZJjaTAwhTNvcBj~sj3FEZZ-T0krGlhvf9VOos4ZM-UJGJPbcZjtGzTIKBFq63~q2~KdxZ8nFDro2coypPARYxIPZyu-sHMvYp4HdJEOJxuzbcNSF7ugHlWbXiXn3OXJ~S608qIO59btZup8ifuL0qnGA38l5Coonh0fxFD8bGyzDfRDQe56I71ALZx4fSD01XykXSTtJZHRCfLiXk8TWEyDLU~uQQ4tf4V1Anvq7g7gl71dD0NKy55r~vP~fgthkbbVaOx7CyGMRrluYPt3NB~my6VDpw__);
+    width: auto;
+    // height: auto;
+    margin-top: 105px;
+    // border: 1px solid;
+    box-sizing: border-box;
+    padding: 120px 300px 120px 300px;
+    background-position: center;
+    
+
+    .container {
+        width: 100%;
+        // border: 1px solid;
+        box-sizing: border-box;
+        padding-bottom:16.99px ;
+
+
+
+        >h2 {
+            margin-top: 0;
+
+            font-family: Inter;
+            font-size: 30px;
+            font-weight: 700;
+            // line-height: 45px;
+            letter-spacing: 0em;
+            text-align: center;
+
+        }
+
+        >div {
+            display: flex;
+            flex-direction: column;
+            padding-left: 12.8px;
+            padding-right: 12.61px;
+            // border: 1px solid;
+
+            >img {
+                width: 100px;
+                height: 100px;
+                // top: 10px;
+                // left: 265px;
+                // margin-top: 10px;
+                // margin-left: 300px;
+                align-self: center;
+
+            }
+
+            >p:nth-of-type(1) {
+                margin-top: 60px;
+                font-family: Inter;
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 38px;
+                letter-spacing: 0em;
+                text-align: center;
+                color: #EB662B;
+
+
+            }
+
+            >div:nth-of-type(1) {
+                // margin-top: 25px;
+                // border: 1px solid;
+                box-sizing: border-box;
+
+                >p {
+                    font-family: Inter;
+                    font-size: 20px;
+                    font-weight: 500;
+                    line-height: 38px;
+                    letter-spacing: 0em;
+                    text-align: center;
+                    margin: 0;
+
+                }
+            }
+
+            >div:nth-of-type(2) {
+                margin-top: 28.5px;
+                // border: 1px solid;
+                box-sizing: border-box;
+
+                >p {
+                    font-family: Inter;
+                    font-size: 16px;
+                    font-weight: 500;
+                    // line-height: 26px;
+                    letter-spacing: 0em;
+                    text-align: center;
+                    margin: 0;
+                }
+            }
+
+            >div:nth-of-type(3) {
+                margin-top: 2.6px;
+                // border: 1px solid;
+                box-sizing: border-box;
+
+                >p {
+                    font-family: Inter;
+                    font-size: 14px;
+                    font-weight: 400;
+                    // line-height: 24px;
+                    letter-spacing: 0em;
+                    text-align: center;
+                    margin: 0;
+                }
+            }
+
+            >div:nth-of-type(4) {
+                width: 100%;
+                display: flex;
+                gap: 8px;
+                margin-top: 77px;
+                height: auto;
+                justify-content: center;
+
+                >div:nth-of-type(1) {
+                    width: 18px;
+                    height: 6px;
+                    // top: 482.85px
+                    // left: 278px
+                    border-radius: 20px;
+                    background-color: black;
+
+
+                }
+
+                >div:nth-of-type(2) {
+                    width: 6px;
+                    height: 6px;
+                    // top: 482.85px
+                    // left: 304px
+                    border-radius: 20px;
+                    background-color: black;
+
+                }
+                >div:nth-of-type(3) {
+                    width: 6px;
+                    height: 6px;
+                    // top: 482.85px
+                    // left: 304px
+                    border-radius: 20px;
+                    background-color: black;
+
+                }
+                >div:nth-of-type(4) {
+                    width: 6px;
+                    height: 6px;
+                    // top: 482.85px
+                    // left: 304px
+                    border-radius: 20px;
+                    background-color: black;
+
+                }
+                >div:nth-of-type(5) {
+                    width: 6px;
+                    height: 6px;
+                    // top: 482.85px
+                    // left: 304px
+                    border-radius: 20px;
+                    background-color: black;
+
+                }
+            }
+        }
+    }
+
+}
+
+.blue {
+    display: flex;
+    background-repeat: no-repeat;
+    background-image: url(https://s3-alpha-sig.figma.com/img/0279/eb6d/3eb3a2e3a0c32d53f9e99dc6336e4021?Expires=1709510400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=BEJchlixI-dCK9cggxUKHFjRzGMHrW76xZRGyIqtnNS0GAeb4-xl6VQ~W6fH7oiH4BPR7~0IEWbgpP1zgUB4OdW~WLjas7fSWC~PEToPdquCw0R4RSyL~R2TjHhVbhEVHNkLuS6ZghkZ89AjdzifYl~S7DviFF9cXHMxrzSIbjDmIUZOB4D4ybC2sY0TdXkkdKjWEQoGZolq~ZriVW7sYLoo74isof24IQWCl~0DzXdgfMYKsl-CS4QudEidiBrh0gMwUm-zv9v9ImLxQ93SCLluNi1yfdnWpybZZmKY33KzwCFkgBZn1aPo4DUSXlv4TPem5N-7OfKitB9jeWTA-g__);
+    margin: auto;
+    width: 1600px;
+
+    .item1 {
+        margin-left: 120px;
+        margin-top: 75px;
+
+        h1 {
+            width: 365px;
+            font-style: Inter;
+            font-size: 39px;
+            color: white;
+        }
+
+        img {
+            margin-left: 265px;
+        }
+
+        input {
+            height: 40px;
+            width: 350px;
+            border-radius: 12px;
+            padding: 10px;
+            color: white;
+            border: 0.5px solid white;
+        }
+
+        button {
+            width: 107px;
+            height: 60px;
+            border-radius: 12px;
+            background-color: white;
+            border: 0.5px solid white;
+        }
+    }
+}
+
+
 
 
 
