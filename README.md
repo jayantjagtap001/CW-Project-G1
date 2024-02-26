@@ -4,8 +4,9 @@ This project is a clone of the homepage of Lenovo, a popular online shop. This p
 ## Project Type
 Frontend 
 ## Deplolyed App
-Frontend:https://lenoflex.netlify.app/
-        :https://figmagroup1.netlify.app/
+Frontend
+Bootstrap:https://lenoflex.netlify.app/
+Figma:https://figmagroup1.netlify.app/
 ## Directory Structure
 my-app/
 ├─ frontend/
