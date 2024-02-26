@@ -14,10 +14,26 @@ my-app/
 List out the key features of your application.
 
 - Sticky Navbar: while scrolling the navbar sticks at the top of the view height.
--Ham-burger icon
-  Pixel-perfect design
+-Containers
+-Pixel-perfect design
+## Installation & Getting started
+bootstrap :
+Go to Terminal
+Enter the commands :
+cd path/to/your/project
+npm init -y
+npm install bootstrap
+
+OR
+
+Copy and paste the link in the head of the HTML code:
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+Clone the repo in your terminal, and run the command :
+
+git clone git@github.com:ritwikdutta2k/CW-Project-1.git
 ## Team Members
-1-Jayant
+1-Jayant Sanjay Jagtap
 
 2- Ashwin
 
