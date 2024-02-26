@@ -10,7 +10,9 @@ Frontend:https://lenoflex.netlify.app/
 my-app/
 ├─ frontend/
 │  ├─ bootstarp/
-|  |  |-html, css
+  |-html, css
+| |-figma/
+   |-html,css
 ## Features
 List out the key features of your application.
 
@@ -65,4 +67,10 @@ In the pixel-perfect Figma design, the layout is meticulously crafted for precis
 
 # Footer
 ![figma footer](https://github.com/jayantjagtap001/CW-Project-G1/assets/154405741/6a0380ea-99e4-4c0a-ad5c-48b43b4efdb7)
+## Technology Stack
+List and provide a brief overview of the technologies used in the project.
 
+HTML
+CSS
+SCSS
+Bootstrap
