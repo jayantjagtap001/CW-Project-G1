@@ -1,5 +1,5 @@
 # Leno Flex
-#introduction
+# introduction
 This project is a clone of the homepage of Lenovo, a popular online shop. This project aims to recreate the visual layout and design of the original website's homepage.
 ## header
 Designed with a sleek and visually striking aesthetic, our header sets the stage for an immersive digital experience. Navigate seamlessly through Leno Flex world of cutting-edge technology, where every click opens the door to innovation, reliability, and style. Explore, engage, and experience the future with Lenovo.
