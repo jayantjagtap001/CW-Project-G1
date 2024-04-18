@@ -40,7 +40,7 @@ git clone [](https://github.com/jayantjagtap001/CW-Project-G1.git)
 ## Team Members
 1-Jayant Sanjay Jagtap
 
-2- Ashwin
+2- Ashwin Bhagat
 
 3- Kajal kumari
 
